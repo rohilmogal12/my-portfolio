@@ -11,14 +11,14 @@ function Project() {
       <div className="projects-grid">
         <div className="project">
           <a
-            href="https://github.com/rohilytics/Netflix-Content-Data-Analytics/blob/ec43b8c0269327bc750dabb1bc8ebee78fff767f/NetflixEDA.ipynb"
+            href="https://rohilmogal12.github.io/Netflix-Exploratory-Data-Analysis-EDA/index.html"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://github.com/rohilytics/Netflix-Content-Data-Analytics/blob/ec43b8c0269327bc750dabb1bc8ebee78fff767f/NetflixEDA.ipynb"
+            href="https://rohilmogal12.github.io/Netflix-Exploratory-Data-Analysis-EDA/index.html"
             target="_blank"
             rel="noreferrer"
           >

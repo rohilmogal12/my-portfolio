@@ -9,49 +9,46 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import "../assets/styles/Timeline.scss";
 
-function Timeline() {
+function Education() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Education History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="04/2024 - 08/2024"
+            date="10/2022 - 2026"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Research Internship – Equity Analysis with AI
+              Master's in Web and Data Science
             </h3>
             <h5 className="vertical-timeline-element-subtitle">
               Universität Koblenz - Koblenz, Germany
             </h5>
             <p>
-              Data Collection, Data Cleaning and Preparation, Exploratory Data
-              Analysis, Statistical Measurement, Visualization and Reporting,
-              Insights and Decision Support
+              Data Science | Machine Learning and Data Mining | Big Data | Data
+              Visualization
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="09/2020 – 02/2021"
+            date="07/2017 - 04/2021"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Product Analyst Intern
+              Bachelor's in Computer Engineering
             </h3>
-            <h5 className="vertical-timeline-element-subtitle">
-              Zymr, Inc. - Pune, India
-            </h5>
+            <h5 className="vertical-timeline-element-subtitle"></h5>
             <p>
-              Data extraction, cleaning, SQL, Python (Pandas), Tableau
-              dashboards, anomaly detection, trend analysis, workflow
-              optimization, real-time analytics.
+              Data Structures | Database Management System | Data Mining and
+              Business Intelligence
             </p>
+            <p>Grade: 8.61/10</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
@@ -59,4 +56,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default Education;

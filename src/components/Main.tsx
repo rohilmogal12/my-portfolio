@@ -9,7 +9,7 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQGgx8u4pEsrbA/profile-displayphoto-shrink_800_800/B4EZaGGGdEHIAc-/0/1746006468997?e=1751500800&v=beta&t=QvtdPjUTFGeWUcKjJWY7fGEIc7YiuZa5-dhBzaIn7PM"
+            src="https://avatars.githubusercontent.com/u/178321015?v=4"
             alt="Avatar"
           />
         </div>
