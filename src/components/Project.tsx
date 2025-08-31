@@ -1,6 +1,7 @@
 import React from "react";
 import mock01 from "../assets/images/mock01.png";
 import mock02 from "../assets/images/mock02.png";
+import mock03 from "../assets/images/mock03.png";
 
 import "../assets/styles/Project.scss";
 
@@ -9,6 +10,28 @@ function Project() {
     <div className="projects-container" id="projects">
       <h1>Personal Projects</h1>
       <div className="projects-grid">
+        <div className="project">
+          <a
+            href="https://github.com/rohilmogal12/snowflake-youtube-pipeline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock03} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/rohilmogal12/snowflake-youtube-pipeline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>End-to-End Pipeline: Youtube Analytics</h2>
+          </a>
+          <p>
+            This project builds an end-to-end data pipeline that extracts
+            YouTube trending video data from the YouTube Data API, enriches it
+            with category metadata, stores it in Snowflake, and visualizes key
+            insights using Power BI.
+          </p>
+        </div>
         <div className="project">
           <a
             href="https://rohilmogal12.github.io/Netflix-Exploratory-Data-Analysis-EDA/index.html"

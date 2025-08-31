@@ -16,7 +16,7 @@ function Main() {
         <div className="content">
           <div className="social_icons">
             <a
-              href="https://github.com/rohilytics"
+              href="https://github.com/rohilmogal12"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,11 +31,11 @@ function Main() {
             </a>
           </div>
           <h1>Rohil Mogal</h1>
-          <p>Data Analyst</p>
+          <p>Data Enthusiast | Python, SQL, Snowflake, Tableau</p>
 
           <div className="mobile_social_icons">
             <a
-              href="https://github.com/rohilytics"
+              href="https://github.com/rohilmogal12"
               target="_blank"
               rel="noreferrer"
             >

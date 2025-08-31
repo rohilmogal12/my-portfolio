@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div>
         <a
-          href="https://github.com/rohilytics"
+          href="https://github.com/rohilmogal12"
           target="_blank"
           rel="noreferrer"
         >

@@ -19,6 +19,28 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="08/2024 - 01/2025"
+            iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Warehouse Associate
+            </h3>
+            <h5 className="vertical-timeline-element-subtitle">
+              Amazon Logistics - Koblenz, Germany
+            </h5>
+            <p>
+              Proficient in using PDAs, scanners, and Microsoft Office 365 for
+              efficient warehouse operations, handling dangerous goods and
+              managing inbound logistics using Amazon warehouse software.
+              Coordinated delivery, package fulfillment, and shipment tracking
+              in collaboration with the operations
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="04/2024 - 08/2024"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -37,12 +59,12 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="09/2020 – 02/2021"
+            date="05/2021 – 07/2022"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Product Analyst Intern
+              Product Data Analyst
             </h3>
             <h5 className="vertical-timeline-element-subtitle">
               Zymr, Inc. - Pune, India
