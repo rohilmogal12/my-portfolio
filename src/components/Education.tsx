@@ -19,7 +19,7 @@ function Education() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="10/2022 - 2026"
+            date="10/2022 - Current"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -29,10 +29,6 @@ function Education() {
             <h5 className="vertical-timeline-element-subtitle">
               Universität Koblenz - Koblenz, Germany
             </h5>
-            <p>
-              Data Science | Machine Learning and Data Mining | Big Data | Data
-              Visualization
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -43,12 +39,9 @@ function Education() {
             <h3 className="vertical-timeline-element-title">
               Bachelor's in Computer Engineering
             </h3>
-            <h5 className="vertical-timeline-element-subtitle"></h5>
-            <p>
-              Data Structures | Database Management System | Data Mining and
-              Business Intelligence
-            </p>
-            <p>Grade: 8.61/10</p>
+            <h5 className="vertical-timeline-element-subtitle">
+              GTU, Ahmedabad, India
+            </h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

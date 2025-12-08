@@ -1,15 +1,73 @@
 footer {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+    background: rgba(13, 17, 22, 0.3);
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(30px) saturate(180%);
+        -webkit-backdrop-filter: blur(30px) saturate(180%);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 
+          0 4px 16px rgba(0, 0, 0, 0.2),
+          0 1px 0 rgba(255, 255, 255, 0.1) inset;
+
+        &:hover {
+            background: rgba(165, 180, 252, 0.2);
+            transform: translateY(-6px) scale(1.1);
+            box-shadow: 
+              0 12px 32px rgba(165, 180, 252, 0.4),
+              0 4px 8px rgba(0, 0, 0, 0.3),
+              0 1px 0 rgba(255, 255, 255, 0.2) inset;
+            border-color: rgba(165, 180, 252, 0.5);
+        }
+    }
 
     svg {
-        width: 1.1em !important;
-        height: 1.1em !important;
-        margin-right: 10px;
+        width: 1.5em !important;
+        height: 1.5em !important;
+        margin: 0 !important;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 0.95em;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 32px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        a {
+            width: 45px;
+            height: 45px;
+        }
     }
 }

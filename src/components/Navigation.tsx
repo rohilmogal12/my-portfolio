@@ -93,7 +93,14 @@ function Navigation({ parentToChild, modeChange }: any) {
       <AppBar
         component="nav"
         id="navigation"
+        color="transparent"
+        elevation={0}
+        enableColorOnDark
         className={`navbar-fixed-top${scrolled ? " scrolled" : ""}`}
+        sx={{
+          backgroundColor: "transparent",
+          color: mode === "dark" ? "#f8fafc" : "#0d0f1a",
+        }}
       >
         <Toolbar className="navigation-bar">
           <IconButton
@@ -115,7 +122,7 @@ function Navigation({ parentToChild, modeChange }: any) {
               <Button
                 key={item[0]}
                 onClick={() => scrollToSection(item[1])}
-                sx={{ color: "#fff" }}
+                sx={{ color: mode === "dark" ? "#fff" : "#0d0f1a" }}
               >
                 {item[0]}
               </Button>

@@ -1,21 +1,89 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
+#contact {
+  position: relative;
+  z-index: 1;
+
+  h1 {
+    font-size: 3.5em;
+    margin-bottom: 24px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 50%, #c7d2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    text-shadow: 0 4px 16px rgba(99, 102, 241, 0.2);
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 40px;
+    line-height: 1.7;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.contact_wrapper {
+  text-align: center;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.1) inset;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 
+      0 24px 64px rgba(99, 102, 241, 0.25),
+      0 8px 16px rgba(0, 0, 0, 0.3),
+      0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    transform: translateY(-8px) scale(1.02);
+    border-color: rgba(165, 180, 252, 0.4);
+  }
+
+  svg {
+    font-size: 1.1em;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
 }
 
 .contact-form {
-  padding-top: 20px;
+  padding-top: 24px;
 
   button {
     float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #235789;
+    background: rgba(165, 180, 252, 0.3);
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
     color: white;
+    padding: 14px 36px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: none;
+    box-shadow: 
+      0 4px 16px rgba(99, 102, 241, 0.3),
+      0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 0.5px solid rgba(165, 180, 252, 0.4);
+
+    &:hover {
+      background: rgba(165, 180, 252, 0.4);
+      transform: translateY(-4px) scale(1.05);
+      box-shadow: 
+        0 8px 24px rgba(165, 180, 252, 0.4),
+        0 1px 0 rgba(255, 255, 255, 0.3) inset;
+      border-color: rgba(165, 180, 252, 0.6);
+    }
   }
 
   fieldset {
@@ -25,7 +93,8 @@
 
 label {
   font-size: 1.2rem;
-  font-family: "DomaineDispNar-Medium", sans-serif;
+  font-family: "Inter", "Lato", sans-serif;
+  font-weight: 500;
 }
 
 .form-flex {
@@ -45,4 +114,28 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    h1 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  }
+
+  .contact_wrapper {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  #contact {
+    h1 {
+      font-size: 2em;
+    }
+  }
 }

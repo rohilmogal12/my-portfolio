@@ -19,61 +19,41 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="08/2024 - 01/2025"
+            date="04/2024 - 10/2024"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Warehouse Associate
+              Research Intern - AI and Data Analytics
             </h3>
             <h5 className="vertical-timeline-element-subtitle">
-              Amazon Logistics - Koblenz, Germany
+              Universität Koblenz - Koblenz, Germany
             </h5>
-            <p>
-              Proficient in using PDAs, scanners, and Microsoft Office 365 for
-              efficient warehouse operations, handling dangerous goods and
-              managing inbound logistics using Amazon warehouse software.
-              Coordinated delivery, package fulfillment, and shipment tracking
-              in collaboration with the operations
-            </p>
+            <ul className="timeline-description">
+              <li>Collected unstructured financial data using JavaScript web scraping to structure relevant data sources for AI analysis.</li>
+              <li>Utilized transformer-based models (LLMs) to extract features, directly supporting the implementation of data-driven solutions.</li>
+              <li>Analyzed model outputs to interpret market sentiment, demonstrating ability to analyze complex data within the context of technical applications.</li>
+            </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="04/2024 - 08/2024"
+            date="06/2021 - 01/2022"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Research Internship – Equity Analysis with AI
-            </h3>
-            <h5 className="vertical-timeline-element-subtitle">
-              Universität Koblenz - Koblenz, Germany
-            </h5>
-            <p>
-              Data Collection, Data Cleaning and Preparation, Exploratory Data
-              Analysis, Statistical Measurement, Visualization and Reporting,
-              Insights and Decision Support
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="05/2021 – 07/2022"
-            iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Product Data Analyst
+              Software Developer Intern
             </h3>
             <h5 className="vertical-timeline-element-subtitle">
               Zymr, Inc. - Pune, India
             </h5>
-            <p>
-              Data extraction, cleaning, SQL, Python (Pandas), Tableau
-              dashboards, anomaly detection, trend analysis, workflow
-              optimization, real-time analytics.
-            </p>
+            <ul className="timeline-description">
+              <li>Assisted in coding, debugging, and documenting software modules using Python and SQL.</li>
+              <li>Supported REST API integration and data validation tasks to ensure accurate data exchange between applications (data integration compliance).</li>
+              <li>Conducted research on REST APIs, Git workflows, and CI/CD pipelines to improve project efficiency.</li>
+            </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
