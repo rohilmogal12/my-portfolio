@@ -31,7 +31,7 @@ function Main() {
             </a>
           </div>
           <h1>Rohil Mogal</h1>
-          <p>Data Scientist | Machine Learning Engineer | AI Developer</p>
+          <p>Data Science Student | Data Engineer | AI/ML Developer</p>
 
           <div className="mobile_social_icons">
             <a

@@ -37,9 +37,9 @@ function App() {
       <FadeIn transitionDuration={700}>
         <Main />
         <Expertise />
+        <Project />
         <Timeline />
         <Education />
-        <Project />
         <Contact />
       </FadeIn>
       <Footer />

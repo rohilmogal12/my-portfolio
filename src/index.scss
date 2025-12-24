@@ -108,17 +108,16 @@ h3 {
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "Lato", sans-serif;
     text-transform: initial;
     padding: 10px 20px;
-    border-radius: 12px;
+    border-radius: 6px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    border: none;
+    border: 1px solid transparent;
     
     &:hover {
       background: rgba(255, 255, 255, 0.15);
       transform: translateY(-2px);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      border-color: rgba(255, 255, 255, 0.3);
     }
   }
 

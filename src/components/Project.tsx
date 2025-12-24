@@ -2,6 +2,7 @@ import React from "react";
 import mock01 from "../assets/images/mock01.png";
 import mock02 from "../assets/images/mock02.png";
 import mock03 from "../assets/images/mock03.png";
+import mock04 from "../assets/images/mock04.png";
 
 import "../assets/styles/Project.scss";
 
@@ -11,11 +12,11 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="#" target="_blank" rel="noreferrer">
-            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
+          <a href="https://github.com/rohilmogal12/car-diagnosis-ai" target="_blank" rel="noreferrer">
+            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
-            <h2>Vehicle Diagnosis using AI 2025</h2>
+          <a href="https://github.com/rohilmogal12/car-diagnosis-ai" target="_blank" rel="noreferrer">
+            <h2>Vehicle Diagnosis using AI</h2>
           </a>
           <p>
             Built a FastAPI engine that turns free-form symptom text into
@@ -39,7 +40,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>ELT Pipeline: YouTube Trend Analytics 2025</h2>
+            <h2>ELT Pipeline: YouTube Trend Analytics</h2>
           </a>
           <p>
             Developed a full ELT pipeline for data integration using Python and

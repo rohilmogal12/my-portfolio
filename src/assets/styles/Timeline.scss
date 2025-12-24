@@ -1,7 +1,7 @@
 #history {
   position: relative;
   z-index: 1;
-  
+
   h1 {
     font-size: 3.5em;
     margin-bottom: 60px;
@@ -39,8 +39,9 @@
     background: rgba(255, 255, 255, 0.85) !important;
     backdrop-filter: blur(40px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(40px) saturate(180%) !important;
-    border-radius: 16px !important;
-    box-shadow: 
+    border-radius: 6px !important;
+    max-width: 600px !important; /* Increased width */
+    box-shadow:
       0 12px 40px rgba(0, 0, 0, 0.15),
       0 1px 0 rgba(255, 255, 255, 0.3) inset,
       0 0 0 0.5px rgba(255, 255, 255, 0.4) !important;
@@ -50,7 +51,7 @@
 
     &:hover {
       transform: translateY(-8px) scale(1.02);
-      box-shadow: 
+      box-shadow:
         0 20px 60px rgba(99, 102, 241, 0.25),
         0 8px 16px rgba(0, 0, 0, 0.2),
         0 1px 0 rgba(255, 255, 255, 0.4) inset,
@@ -66,7 +67,7 @@
   }
 
   .vertical-timeline-element-icon {
-    box-shadow: 
+    box-shadow:
       0 12px 32px rgba(165, 180, 252, 0.4),
       0 4px 8px rgba(0, 0, 0, 0.2),
       0 1px 0 rgba(255, 255, 255, 0.3) inset !important;
@@ -78,7 +79,7 @@
 
     &:hover {
       transform: scale(1.15);
-      box-shadow: 
+      box-shadow:
         0 16px 48px rgba(165, 180, 252, 0.5),
         0 6px 12px rgba(0, 0, 0, 0.3),
         0 1px 0 rgba(255, 255, 255, 0.4) inset !important;
@@ -152,9 +153,9 @@
     background: rgba(165, 180, 252, 0.25);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
-    border-radius: 12px;
+    border-radius: 6px;
     border: 0.5px solid rgba(165, 180, 252, 0.4);
-    box-shadow: 
+    box-shadow:
       0 4px 12px rgba(99, 102, 241, 0.2),
       0 1px 0 rgba(255, 255, 255, 0.2) inset;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

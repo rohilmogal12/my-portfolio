@@ -19,7 +19,7 @@ function Education() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="10/2022 - Current"
+            date="October 2022 - Present"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -32,7 +32,7 @@ function Education() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="07/2017 - 04/2021"
+            date="July 2017 - April 2021"
             iconStyle={{ background: "#235789", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
