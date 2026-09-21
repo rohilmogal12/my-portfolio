@@ -24,56 +24,38 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Forschungspraktikum — AI and Data Analytics
+              Research Intern, Universität Koblenz
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Universität Koblenz, Germany
             </h4>
             <p>
-              Collected and structured unstructured financial data with
-              JavaScript-based web scraping to create AI-ready datasets, applied
-              transformer-based language models to extract features and
-              insights, and analyzed model outputs to interpret market sentiment
-              on complex, real-world data.
+              Built data pipelines to gather, clean, and structure financial and
+              market data from multiple sources using Python, SQL, and
+              JavaScript, designed an LLM-based sentiment-analysis workflow that
+              turns unstructured news data into structured insights, and
+              evaluated forecasting models to improve prediction accuracy by up
+              to 25%.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Oct 2023 – Mar 2024"
+            date="Jul 2021 – Aug 2022"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Data Analyst — Intern
+              Software Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Vodafone, Düsseldorf, Germany (Hybrid)
+              Zymr, Inc., Pune, India
             </h4>
             <p>
-              Supported data analysis and reporting by developing interactive
-              Tableau dashboards for Finance and Product Management, performed
-              SQL-based data extraction and transformation for regular and
-              ad-hoc reporting, and helped automate recurring data workflows to
-              improve reporting efficiency.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Jul 2021 – Jan 2022"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Software Developer — Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Zymr, Inc.</h4>
-            <p>
-              Assisted in developing, debugging, and documenting Python and
-              SQL-based software modules for internal automation tools,
-              supported API integration and data validation for reliable data
-              exchange between applications, and conducted technical research on
-              REST APIs, Git workflows, and CI/CD pipelines to enhance
-              development efficiency and code quality.
+              Automated data processing and reporting workflows using Python and
+              SQL, built and validated API integrations for reliable data
+              exchange between teams and stakeholders, and developed REST API
+              workflows with Git version control and CI/CD pipelines to support
+              platform maintenance.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

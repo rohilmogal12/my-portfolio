@@ -1,7 +1,7 @@
 import React from "react";
 import pic1 from "../assets/images/pic1.png";
-import pic2 from "../assets/images/pic2.png";
 import pic3 from "../assets/images/pic3.png";
+import pic4 from "../assets/images/pic4.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -18,7 +18,7 @@ function Project() {
             <img
               src={pic1}
               className="zoom"
-              alt="Car Fault Diagnosis Assistant thumbnail"
+              alt="Vehicle Diagnostics with AI thumbnail"
               width="100%"
             />
           </a>
@@ -28,49 +28,45 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              Car Fault Diagnosis Assistant
+              Vehicle Diagnostics with AI
             </a>
           </h2>
           <p>
-            Built an AI-driven vehicle diagnosis system that transforms
-            free-form symptom text into structured fault predictions using
-            FastAPI, combining rule-based logic with LLM modules for hybrid
-            reasoning and feature extraction, and delivered it as a
-            production-ready application by containerizing the API, Streamlit
-            dashboard, and local LLM with Docker Compose for reproducible
-            deployment.
+            Built a full-stack diagnostics system combining rule-based logic
+            with AI-generated explanations, documented through a structured REST
+            API for system integration, and containerized the application with
+            Docker and Docker Compose for production deployment.
           </p>
         </div>
 
         <div className="project">
           <a
-            href="https://github.com/rohilmogal12/Netflix-Exploratory-Data-Analysis-EDA"
+            href="https://github.com/rohilmogal12/uber-analytics-dashboard"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={pic2}
+              src={pic4}
               className="zoom"
-              alt="Netflix EDA thumbnail"
+              alt="Uber Analytics Dashboard thumbnail"
               width="100%"
             />
           </a>
           <h2>
             <a
-              href="https://github.com/rohilmogal12/Netflix-Exploratory-Data-Analysis-EDA"
+              href="https://github.com/rohilmogal12/uber-analytics-dashboard"
               target="_blank"
               rel="noreferrer"
             >
-              Netflix Exploratory Data Analysis (2025)
+              Uber Analytics Dashboard
             </a>
           </h2>
           <p>
-            Performed end-to-end exploratory data analysis on Netflix Movies and
-            TV Shows in Python, cleaning, preprocessing, and standardizing raw
-            datasets with Pandas and NumPy, uncovering trends in content type,
-            ratings, genres, and release years, and communicating insights
-            through clear visualizations built with Matplotlib and Seaborn to
-            support data-driven content decisions.
+            Designed and developed an interactive Business Intelligence
+            dashboard in Power BI, transforming raw trip data into insights on
+            ride demand, peak usage times, and geographic distribution, and
+            executed data cleaning, transformation, and data modeling using
+            Power Query to build a high-quality dataset for tracking KPIs.
           </p>
         </div>
 
@@ -93,16 +89,15 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              ELT Pipeline: YouTube Trend Analytics (2025)
+              ELT Pipeline: YouTube Trend Analytics
             </a>
           </h2>
           <p>
-            Developed a scalable ELT pipeline that extracts trending YouTube
-            video data via APIs and loads it into Snowflake for cloud-based
-            analytics, designed structured schemas and transformation logic in
-            Python to optimize analytical querying, and enabled near real-time
-            insight delivery through Power BI dashboards with live connections
-            and automated data refresh from the cloud warehouse.
+            Built a scalable ELT pipeline that extracts data via APIs and loads
+            it into Snowflake using automated transformation logic to reduce
+            manual effort, and developed Power BI dashboards with live
+            connections and automated refresh cycles from cloud-based data
+            warehouses for real-time KPI monitoring.
           </p>
         </div>
       </div>

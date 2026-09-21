@@ -10,39 +10,42 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
 const labelsFirst = [
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "HTML5",
-  "CSS3",
-  "SASS",
-  "Flask",
   "Python",
   "SQL",
-  "PostgreSQL",
-  "Postman",
+  "JavaScript",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Data Pipelines",
+  "ELT Pipelines",
+  "Snowflake",
+  "Data Modeling",
+  "REST APIs",
+  "API Integration",
 ];
 
 const labelsSecond = [
+  "Power BI",
+  "Power Query",
+  "Tableau",
+  "Excel",
   "Git",
-  "GitHub Actions",
+  "GitHub CI/CD",
   "Docker",
-  "AWS",
-  "Azure",
+  "Docker Compose",
   "Linux",
-  "Snowflake",
-  "Pandas",
-  "Selenium",
+  "Process Automation",
 ];
 
 const labelsThird = [
-  "OpenAI",
-  "Groq",
+  "LLM Agents",
+  "RAG Pipelines",
+  "Prompt Engineering",
+  "Sentiment Analysis",
+  "ARIMA",
+  "Forecasting Models",
   "LangChain",
-  "Qdrant",
   "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
 ];
 
 function Expertise() {
@@ -52,13 +55,12 @@ function Expertise() {
         <h1>Expertise</h1>
         <div className="skills-grid">
           <div className="skill">
-            <FontAwesomeIcon icon={faReact} size="3x" />
-            <h3>Data-Driven Web Applications</h3>
+            <FontAwesomeIcon icon={faPython} size="3x" />
+            <h3>Programming & Data Engineering</h3>
             <p>
-              I design and build data-centric web applications that connect
-              intuitive React frontends with Python and Flask backends,
-              integrating APIs, databases, and analytics so insights are
-              directly available in the UI.
+              I build reliable data pipelines and ETL workflows using Python,
+              SQL, and JavaScript—covering ingestion, modeling, and quality
+              assurance so raw data becomes structured, decision-ready assets.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -70,12 +72,11 @@ function Expertise() {
 
           <div className="skill">
             <FontAwesomeIcon icon={faDocker} size="3x" />
-            <h3>Data Engineering, Cloud & DevOps</h3>
+            <h3>Business Intelligence & DevOps</h3>
             <p>
-              I work with Docker, cloud platforms, and CI/CD to build reliable
-              data pipelines and services—covering ingestion, transformation,
-              testing, and deployment so analytics and ML workloads run smoothly
-              in production.
+              I turn data into insight with Power BI, Power Query, and Tableau,
+              and ship reliably with Git, Docker, and CI/CD so analytics reach
+              stakeholders through automated, production-grade workflows.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -86,13 +87,12 @@ function Expertise() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="3x" />
-            <h3>GenAI, LLMs & Intelligent Analytics</h3>
+            <FontAwesomeIcon icon={faReact} size="3x" />
+            <h3>AI & Machine Learning</h3>
             <p>
-              I apply modern GenAI stacks (LLMs, vector databases, and
-              orchestration frameworks) to turn raw data into intelligent
-              assistants, search, and analytics experiences that augment
-              decision-making and automate workflows.
+              I apply modern AI and machine learning—LLM agents, RAG pipelines,
+              prompt engineering, and forecasting models—to extract insight from
+              unstructured data and automate decision-making.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
