@@ -7,6 +7,8 @@ import {
   faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
+// The bundler handles this stylesheet import; TypeScript has no SCSS module declaration.
+// @ts-expect-error SCSS is supported by the build configuration.
 import "../assets/styles/Expertise.scss";
 
 const labelsFirst = [

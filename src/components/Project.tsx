@@ -2,6 +2,8 @@ import React from "react";
 import pic1 from "../assets/images/pic1.png";
 import pic3 from "../assets/images/pic3.png";
 import pic4 from "../assets/images/pic4.png";
+// The stylesheet is loaded for its side effects; its type declaration is provided by the build tool.
+// @ts-expect-error SCSS side-effect imports are handled by the bundler.
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -18,7 +20,7 @@ function Project() {
             <img
               src={pic1}
               className="zoom"
-              alt="Vehicle Diagnostics with AI thumbnail"
+              alt="MotorSage AI - Diagnose technical vehicle faults with AI thumbnail"
               width="100%"
             />
           </a>
@@ -28,7 +30,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              Vehicle Diagnostics with AI
+              MotorSage AI - Diagnose technical vehicle faults with AI
             </a>
           </h2>
           <p>
